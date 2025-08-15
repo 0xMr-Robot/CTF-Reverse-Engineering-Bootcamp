@@ -1,0 +1,15 @@
+- String Operations Instructions : 
+      MOVS = Moves a string of bytes or words from one location to another "From ESI TO EDI And INC The Two Regs" "Work With Byte Or Word Or DW.
+      SCAS = Scans a string, typically used to search for a specific byte or word within a string "Work With EDI , EAX" "Work With Byte Or Word Or DW". 
+      STOS = Stores a byte or word in a destination, commonly used for initializing or filling memory "Work With EDI , EAX" "Work With Byte Or Word Or DW".
+      REP = Repeat prefix, used with MOVS, SCAS, or STOS to repeat the operation multiple times "REPZ,REPNZ,REPE,REPNE".
+-------------------------------------------------------------------
+- Miscellaneous Instructions : 
+      CLD = Clear direction flag, ensures forward processing for string operations
+      STD = Set direction flag, ensures backward processing.
+      STC = Set the carry flag.
+      CLC = Clear the carry flag.
+      CMC = Complement the carry flag (invert it).
+      NOP = No operation, does nothing and simply passes to the next instruction.   "XCHG EAX EAX" 
+      CPUID = Return Info About CPU And Arch "Depended On EAX Value" "80000001H" 
+-------------------------------------------------------------------

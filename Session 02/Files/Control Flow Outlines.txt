@@ -1,0 +1,25 @@
+- Concept Of The Jump And Its Uses 
+- Jumps Types ( UnConditional - Conditional ) 
+- UnConditional Jump ( JMP )
+- Conditional Jump 
+     JE/JZ: Jump if equal (zero flag is set = 1 )
+     JNE/JNZ: Jump if not equal (zero flag is not set = 0)
+     JG/JNLE: Jump if greater (signed comparison, greater than and not less/equal)
+     JGE/JNL: Jump if greater or equal (signed comparison, not less)
+     JL/JNGE: Jump if less (signed comparison, not greater/equal)
+     JLE/JNG: Jump if less or equal (signed comparison, not greater)
+     JA/JNBE: Jump if above (unsigned comparison, not below/equal)
+     JAE/JNB: Jump if above or equal (unsigned comparison, not below)
+     JB/JNAE: Jump if below (unsigned comparison, not above/equal)
+     JBE/JNA: Jump if below or equal (unsigned comparison, not above)
+     JO: Jump if overflow (overflow flag is set = 1)
+     JNO: Jump if not overflow (overflow flag is not set =0)
+     JS: Jump if sign (sign flag is set = 1 , negative result)
+     JNS: Jump if not sign (sign flag is not set = 0, positive result)
+     JP: Jump if parity (parity flag is set = 1)
+     JNP: Jump if not parity (parity flag is not set = 0)
+     JC: Jump if carry (carry flag is set = 1)
+     JNC: Jump if not carry (carry flag is not set = 0) 
+     JCXZ/JECXZ: Jump If ECX = 0 
+-------------------------------------------------------------------------------------------------
+

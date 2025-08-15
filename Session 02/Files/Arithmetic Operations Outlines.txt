@@ -1,0 +1,35 @@
+- Important Registers In Arithmetic Operations     ( EAX ( AX - AL - AH ) - ( EDX (DX "DL +DH) ) 
+- Arithmetic Operations Types
+- Arithmetic Operations Instructions ( ADD - SUB - MUL - DIV - INC - DEC - IMUL - IDIV - CMP )
+
+
+
+MUL BX 
+IDIV DX
+DIV 66H
+
+                    
+   Target Address                 EAX                EBX 
+     0x677812                  0x67783400          0x459822
+                            AX     AL    AH
+                          0x6778  0x34  0x00
+
+>>>> ADD EAX 12H   ( 0x677800 + 12 = 0x67783412 "New Value Of EAX" )
+>>>> SUB EBX 22H   ( "Can Be Read As 0x459811 - 22H" = 0x459800 "New Value Of EBX" ) 
+>>>> INC ECX       ( "ADD ECX 1" ) (One Operand) 
+>>>> DEC EDX       ( "SUB EDX 1" ) (One Operand)
+>>>> MUL 40H    ( "0x40 X 0x34 = "Result Will Be Stored In AX = 0x0D00" )(One Operand)
+>>>> MUL 3167H    ( "0x3167 X 0x6778" "Result Will Be Stored In AX + DX )
+>>>> DIV 98H
+>>>> DIV 3288H 
+>>>> DIV 77213465H 
+>>>> CMP EAX EBX
+                                 
+
+
+
+
+
+
+
+         

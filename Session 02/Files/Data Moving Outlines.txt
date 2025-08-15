@@ -1,0 +1,33 @@
+- Assembly Instruction Form 
+- Registers Types
+- Data Moving Types
+- Data Moving Instructions ( MOV - LEA - MOVZX - MOVSX - XCHG - PUSH - POP )
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+MOV "Copy"
+
+MOV EAX ECX
+MOV EAX 0x67
+MOV EAX [EDI]     #Data  EDI = 0x76     #Address_Of_The_Data  EDI = 0x62781631  >>> 0x4451
+MOV [ECX] EAX     # EAX = 0x4040C0      # ECX = 0x4040F1       
+Invalid Instruction : MOV [EAX] [EBP]   
+
+LEA EAX EDI 
+LEA EBX [ESP]     # EBX = 0x45   # ESP = 0x667A1    
+0x667A1 >>>> 0x45      0xEFA21 >>>> 0x78 
+
+
+
+XCHG EAX EBX 
+
+
+MOVZX EAX 0x78    # EAX = 0x78000000
+MOVSX EAX 0x78    # EAX = 0X78FFFFFF
+
+
+
+PUSH 
