@@ -1,0 +1,19 @@
+Ghidra: https://github.com/NationalSecurityAgency/ghidra
+Hex Workshop: http://www.hexworkshop.com/
+System Informer: https://systeminformer.sourceforge.io/downloads
+Detect it Easy: https://www.majorgeeks.com/files/details/detect_it_easy.html
+GUI Turbo Assembler: https://sourceforge.net/projects/guitasm8086/
+emu8086: https://emu8086.en.lo4d.com/windows
+DNSpyhttps://dnspy.org/
+Binary Ninja: https://binary.ninja/
+Exeinfo PE: https://exeinfo-pe.en.uptodown.com/windows
+PEID: https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml
+Resource Hacker: https://www.angusj.com/resourcehacker/
+CFF Explorer: https://ntcore.com/explorer-suite/
+PE-Bearhttps://github.com/hasherezade/pe-bear
+Procmon: https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+Process Explorer: https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer
+Process Hacker: https://sourceforge.net/projects/processhacker/
+Wireshark: https://www.wireshark.org/download.html
+x64dbg: https://x64dbg.com/
+IDA Pro: https://mega.nz/folder/NgJQhTKa#Cz1l9v0Ffxjyxw14haxShA
