@@ -1,5 +1,33 @@
 # 🧠🔍 CTF Reverse Engineering Bootcamp
 
+## PREQUISTIES WATCH THIS BEFORE YOU START THE COURSE
+
+https://youtu.be/rE7paYGmvpw?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=2397
+
+https://youtu.be/08LFW9-KzP0?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=4103
+
+https://youtu.be/Z6Gysvkie58?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=4410
+
+https://youtu.be/9vxizL6z-08?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=2787
+
+https://youtu.be/rE7paYGmvpw?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=6656
+
+https://youtu.be/KqUe8hR6lLM?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=3262
+
+https://youtu.be/G-PijruvTpk?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=2076
+
+https://youtu.be/G-PijruvTpk?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=7200
+
+https://youtu.be/sHdh01b6Stw?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=3847
+
+https://youtu.be/_w_AuARPkY4?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=582
+
+https://youtu.be/_w_AuARPkY4?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=1301
+
+https://youtu.be/_w_AuARPkY4?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=2564
+
+https://youtu.be/_w_AuARPkY4?list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4&t=3781
+
 > Level up your CTF skills with a practical, hands‑on journey into reverse engineering.
 
 [![CTF](https://img.shields.io/badge/CTF-Ready-%23009688?style=for-the-badge)](#)
