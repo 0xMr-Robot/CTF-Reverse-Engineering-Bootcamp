@@ -1,0 +1,68 @@
+RC4 Algorithm - Complete Explanation
+What is RC4?
+
+RC4 is a stream cipher designed by Ron Rivest in 1987. Unlike block ciphers (like RC5) that encrypt fixed-size blocks, stream ciphers encrypt data one byte at a time by combining it with a pseudo-random keystream.
+How RC4 Works - Step by Step
+Phase 1: Key Scheduling Algorithm (KSA)
+
+"Purpose: Transform the secret key into a scrambled 256-byte state array"
+
+    Initialization: Create an array S[256] with values 0, 1, 2, ..., 255
+
+    Shuffling: For i from 0 to 255:
+
+        j = (j + S[i] + key[i mod key_length]) mod 256
+
+        Swap S[i] and S[j]
+
+Why this matters: The KSA ensures that the initial state of the array is completely determined by the key. A good key will produce a uniformly random-looking permutation.
+Phase 2: Pseudo-Random Generation Algorithm (PRGA)
+
+"Purpose: Generate a continuous stream of pseudo-random bytes"
+
+For each output byte:
+
+    Increment i: i = (i + 1) mod 256
+
+    Update j: j = (j + S[i]) mod 256
+
+    Swap: Exchange S[i] and S[j]
+
+    Output: Output S[S[i] + S[j] mod 256]
+
+Why this matters: Each step modifies the state, ensuring that the keystream doesn't repeat predictably.
+
+
+Encryption/Decryption Process:
+Ciphertext Byte = Plaintext Byte ⊕ Keystream Byte
+Plaintext Byte = Ciphertext Byte ⊕ Keystream Byte
+
+    The same operation works for both encryption and decryption
+
+    The security depends entirely on the quality of the keystream
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Key Properties of RC4
+Advantages:
+
+    Extremely fast - much faster than most block ciphers
+
+    Simple implementation - only about 10-20 lines of code
+
+    Variable key size - typically 40-256 bits
+
+    No padding needed - works on data of any length
+
+Security Issues:
+
+    Weak keys: Some keys produce biased output in early bytes
+
+    Initial byte bias: First bytes of keystream are not perfectly random
+
+    Related key attacks: Certain key relationships can be exploited
+
+    No authentication: Provides confidentiality only

@@ -1,0 +1,60 @@
+RC5 Algorithm Explanation
+
+What is RC5?
+RC5 is a symmetric-key block cipher designed by Ronald Rivest in 1994. It's known for its simplicity, flexibility, and efficiency.
+
+Key Features:
+
+    Variable parameters: Word size (w), number of rounds (r), and key length (b)
+
+    Simple operations: Uses only XOR, addition, and data-dependent rotations
+
+    Feistel network: Splits data into two halves and processes them alternately
+
+How RC5 Works:
+
+    Key Expansion:
+
+        Converts the secret key into an expanded key array
+
+        Uses magic constants derived from mathematical constants
+
+        Mixes the key thoroughly through multiple iterations
+
+    Encryption Process:
+
+        Initialization: Add expanded key words to data words
+
+        Rounds: For each round:
+
+            XOR the two halves
+
+            Rotate left by amount dependent on the other half
+
+            Add next expanded key word
+
+        Output: The transformed words become ciphertext
+
+    Decryption Process:
+
+        Reverse of encryption
+
+        Subtract expanded key words
+
+        Rotate right instead of left
+
+        Process rounds in reverse order
+
+Security Properties:
+
+    Data-dependent rotations: Makes cryptanalysis harder
+
+    Simple structure: Easy to analyze for vulnerabilities
+
+    Configurable security: More rounds = more security
+
+Common Variants:
+
+    RC5-32/12/16: 32-bit words, 12 rounds, 128-bit key
+
+    RC5-32/16/16: 32-bit words, 16 rounds, 128-bit key
